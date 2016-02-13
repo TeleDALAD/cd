@@ -229,7 +229,8 @@ function create_config( )
     "antitag",
     "setrank",
     "id",
-    "tagall"
+    "tagall",
+    "filter"
     },
     sudo_users = {175623013},--Sudo users
     disabled_channels = {},
@@ -262,7 +263,7 @@ See Patterns In Github
 
   لیست دستورات :
 __________________________
-اخراج [آیدی،کد،ریپلای] 
+حذف [آیدی،کد،ریپلای] 
 شخص مورد نظر از گروه اخراج ميشود.
 —-------------------
 بن [آیدی،کد،ریپلای]
@@ -331,7 +332,7 @@ __________________________
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
-Writed by SBSS Team
+DALAD™
 ]]
   }
   serialize_to_file(config, './data/config.lua')
