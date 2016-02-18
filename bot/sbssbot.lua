@@ -228,6 +228,7 @@ function create_config( )
     "antilink",
     "antitag",
     "setrank",
+    "supergroup",
     "id",
     "tagall",
     "chat"
