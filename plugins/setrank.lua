@@ -222,8 +222,8 @@ return {
 	'(Reply)!setrank <rank>: change members rank.',
   },
   patterns = {
-	"^(آیدی)$",
-	"^(آیدی) (.*)$",
+	"^([/!]idf)$",
+	"^([/!]id) (.*)$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (%d+) (.*)$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (.*)$",
   },
